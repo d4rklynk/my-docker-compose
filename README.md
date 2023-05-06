@@ -9,3 +9,7 @@ You don't have to do every services, if you don't want one, remove it from docke
 5. Update the hostname in `swag/nginx/proxy-confs/libreddit.subdomain.conf` approprieately.
 6. Update the hostname in `swag/nginx/proxy-confs/heimdall.subdomain.conf` approprieately.
 7. Run `docker-compose up` and make sure nothing errors out. You can use `docker-compose up -d` to start it in the background if you want.
+
+Troubleshoot:
+
+Be sure that nitter.conf has read permissions for all `chmod a+r nitter.conf` and root is the owner `chown root:root nitter.conf`
