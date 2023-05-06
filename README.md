@@ -1,5 +1,6 @@
-# Nitter-Docker-Compose
-Nitter Docker-Compose
+# my-docker-compose
+
+You don't have to do every services, if you don't want one, remove it from docker-compose.yml (then remove the networks in the swag service part and in the network part) then remove the file nameofservice.subdomain.conf file.
 
 1. Update `docker-compose.yml`
 2. Configure `nitter.conf` (for Nitter)
