@@ -111,7 +111,7 @@ services:
       - VALIDATION=http
       - ONLY_SUBDOMAINS=true
       - EMAIL=contact@simpleprivacy.fr
-      # uncomment the following if you want to try your domains before provides real certs (since there are rate limits of 5 certs by week with Let's Encrypt)
+      # uncomment the following if you want to try your domains before providing real certs (since there are rate limits of 5 certs by week with Let's Encrypt)
       #- STAGING=true
     volumes:
       - ./swag:/config:Z
